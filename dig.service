@@ -1,0 +1,9 @@
+[Unit]
+Description=run dig
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0
+TimeoutStartSec=infinity
+
+ExecStart=/home/a/Applications/digstartafter
